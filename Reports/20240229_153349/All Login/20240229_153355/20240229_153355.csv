@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+All Login,Firefox 123.0,,,29-02-2024 15:34:03,29-02-2024 15:34:21,18.355s,PASSED
+,,,,,,,
+Test Cases/Main Test Case/TC1_Login Verify,Firefox 123.0,,,29-02-2024 15:34:03,29-02-2024 15:34:15,11.646s,PASSED
+"callTestCase(findTestCase(""Common Test Case/Login""), [""Password"":""panji123"", ""userName"":""panji""], STOP_ON_FAILURE)",Firefox 123.0,,,29-02-2024 15:34:04,29-02-2024 15:34:13,8.723s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/a_Add Account""), 10)",Firefox 123.0,,,29-02-2024 15:34:13,29-02-2024 15:34:13,0.304s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/a_Make Payment""), 10)",Firefox 123.0,,,29-02-2024 15:34:13,29-02-2024 15:34:14,0.278s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ACME demo app/h6_Financial Overview""), ""Financial Overview"")",Firefox 123.0,,,29-02-2024 15:34:14,29-02-2024 15:34:14,0.282s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ACME demo app/h6_Recent Transactions""), ""Recent Transactions"")",Firefox 123.0,,,29-02-2024 15:34:14,29-02-2024 15:34:14,0.225s,PASSED
+closeBrowser(),Firefox 123.0,,,29-02-2024 15:34:14,29-02-2024 15:34:15,0.848s,PASSED
+,,,,,,,
+Test Cases/Main Test Case/TC2_Login Verify,Firefox 123.0,,,29-02-2024 15:34:15,29-02-2024 15:34:21,6.370s,PASSED
+"callTestCase(findTestCase(""Common Test Case/Login""), [""Password"":""jipan123"", ""userName"":""jipan""], STOP_ON_FAILURE)",Firefox 123.0,,,29-02-2024 15:34:15,29-02-2024 15:34:20,4.290s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/a_Add Account""), 10)",Firefox 123.0,,,29-02-2024 15:34:20,29-02-2024 15:34:20,0.234s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/a_Make Payment""), 10)",Firefox 123.0,,,29-02-2024 15:34:20,29-02-2024 15:34:20,0.183s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ACME demo app/h6_Financial Overview""), ""Financial Overview"")",Firefox 123.0,,,29-02-2024 15:34:20,29-02-2024 15:34:20,0.207s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ACME demo app/h6_Recent Transactions""), ""Recent Transactions"")",Firefox 123.0,,,29-02-2024 15:34:20,29-02-2024 15:34:21,0.198s,PASSED
+closeBrowser(),Firefox 123.0,,,29-02-2024 15:34:21,29-02-2024 15:34:21,0.816s,PASSED

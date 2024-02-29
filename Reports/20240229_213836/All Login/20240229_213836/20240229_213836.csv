@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+All Login,Chrome 122.0.0.0,,,29-02-2024 21:38:46,29-02-2024 21:39:00,14.010s,PASSED
+,,,,,,,
+Test Cases/Main Test Case/TC1_Login Verify,Chrome 122.0.0.0,,,29-02-2024 21:38:46,29-02-2024 21:38:53,7.488s,PASSED
+"callTestCase(findTestCase(""Common Test Case/Login""), [""Password"":""panji123"", ""userName"":""panji""], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,29-02-2024 21:38:46,29-02-2024 21:38:52,5.402s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/a_Add Account""), 10)",Chrome 122.0.0.0,,,29-02-2024 21:38:52,29-02-2024 21:38:52,0.347s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/a_Make Payment""), 10)",Chrome 122.0.0.0,,,29-02-2024 21:38:52,29-02-2024 21:38:53,0.331s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ACME demo app/h6_Financial Overview""), ""Financial Overview"")",Chrome 122.0.0.0,,,29-02-2024 21:38:53,29-02-2024 21:38:53,0.352s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ACME demo app/h6_Recent Transactions""), ""Recent Transactions"")",Chrome 122.0.0.0,,,29-02-2024 21:38:53,29-02-2024 21:38:53,0.351s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,29-02-2024 21:38:53,29-02-2024 21:38:53,0.246s,PASSED
+,,,,,,,
+Test Cases/Main Test Case/TC2_Login Verify,Chrome 122.0.0.0,,,29-02-2024 21:38:53,29-02-2024 21:39:00,6.215s,PASSED
+"callTestCase(findTestCase(""Common Test Case/Login""), [""Password"":""jipan123"", ""userName"":""jipan""], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,29-02-2024 21:38:54,29-02-2024 21:38:58,4.332s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/a_Add Account""), 10)",Chrome 122.0.0.0,,,29-02-2024 21:38:58,29-02-2024 21:38:58,0.397s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/a_Make Payment""), 10)",Chrome 122.0.0.0,,,29-02-2024 21:38:58,29-02-2024 21:38:59,0.372s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ACME demo app/h6_Financial Overview""), ""Financial Overview"")",Chrome 122.0.0.0,,,29-02-2024 21:38:59,29-02-2024 21:38:59,0.341s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ACME demo app/h6_Recent Transactions""), ""Recent Transactions"")",Chrome 122.0.0.0,,,29-02-2024 21:38:59,29-02-2024 21:38:59,0.331s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,29-02-2024 21:38:59,29-02-2024 21:39:00,0.311s,PASSED
